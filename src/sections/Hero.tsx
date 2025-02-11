@@ -51,7 +51,7 @@ export default function Hero() {
                     drag
                     className="absolute -left-36 top-16 hidden lg:block">
                     <Image
-                    draggable="false"
+                        draggable="false"
                         src={designExample1Image}
                         alt="Design example 1 image"
                     />
@@ -65,7 +65,7 @@ export default function Hero() {
                 <motion.div
                     ref={rightDesignScope}
                     drag
-                    initial={{ opacity: 0 , x: 100, y: 100}}
+                    initial={{ opacity: 0, x: 100, y: 100 }}
                     className="absolute -right-72 -top-16 hidden lg:block">
                     <Image
                         src={designExample2Image}

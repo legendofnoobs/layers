@@ -45,7 +45,7 @@ export default function Features() {
                             </Avatar>
                             <Avatar className="-ml-6 border-transparent">
                                 <div className="size-full bg-neutral-500 rounded-full inline-flex items-center justify-center gap-1">
-                                    {Array.from({ length: 3 }).map((_,i) => {
+                                    {Array.from({ length: 3 }).map((_, i) => {
                                         return (
                                             <span className="size-1.5 rounded-full bg-white inline-flex" key={i}></span>
                                         )
@@ -67,7 +67,7 @@ export default function Features() {
                         description="WPowerful commands to help you create designs more quickly."
                     >
                         <div className="aspect-video flex items-center justify-center gap-4">
-                            
+
                             <Key className="w-28">shift</Key>
                             <Key>alt</Key>
                             <Key>C</Key>

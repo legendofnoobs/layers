@@ -22,7 +22,7 @@ const Pointer = (props: { name: string; color?: "red" | "blue" }) => {
             <div className="absolute top-full left-full">
                 <div
                     className={twMerge(
-                        "inline-flex rounded-full rounded-tl-none font-bold text-sm bg-blue-500 px-2",
+                        "inline-flex rounded-full rounded-tl-none font-bold text-sm bg-blue-500 px-4",
                         color === "red" && "bg-red-500"
                     )}
                 >
