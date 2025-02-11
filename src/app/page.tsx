@@ -1,4 +1,3 @@
-import CallToAction from "@/sections/CallToAction";
 import Faqs from "@/sections/Faqs";
 import Features from "@/sections/Features";
 import Footer from "@/sections/Footer";
@@ -18,7 +17,6 @@ export default function Home() {
             <Features/>
             <Integrations/>
             <Faqs/>
-            <CallToAction/>
             <Footer/>
         </>
     );
