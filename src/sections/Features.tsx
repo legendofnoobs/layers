@@ -46,7 +46,7 @@ export default function Features() {
                             </Avatar>
                             <Avatar className="-ml-6 border-transparent group-hover:border-orange-500 transition duration-700">
                                 <div className="size-full bg-neutral-500 rounded-full inline-flex items-center justify-center gap-1 relative">
-                                    <Image src={avatar4} alt="avatar 4" className="absolute size-full rounded-full opacity-0 group-hover:opacity-100 transition duration-300"/>
+                                    <Image src={avatar4} alt="avatar 4" className="absolute size-full rounded-full opacity-0 group-hover:opacity-100 transition duration-300" />
                                     {Array.from({ length: 3 }).map((_, i) => {
                                         return (
                                             <span className="size-1.5 rounded-full bg-white inline-flex" key={i}></span>
@@ -56,16 +56,18 @@ export default function Features() {
                             </Avatar>
                         </div>
                     </FeatureCard>
-                    <FeatureCard className="md:col-span-2 lg:col-span-1 relative overflow-hidden group transition-shadow duration-500"
+                    <FeatureCard
+                        className="md:col-span-2 lg:col-span-1 relative overflow-hidden group transition-shadow duration-500"
                         title="Interactive Prototyping"
                         description="Engage your clients with protypes that reacts to user actions."
                     >
-                        <div className="absolute -top-24 bg-transparent group-hover:bg-blue-800 w-full h-2/3 rounded-full -translate-x-6 blur-3xl z-0 transition-all ease-linear duration-300"/>
+                        <div className="absolute -top-24 bg-transparent group-hover:bg-lime-700 w-full h-2/3 rounded-full -translate-x-6 blur-3xl z-0 transition-all ease-linear duration-300" />
                         <div className="aspect-video flex items-center justify-center relative z-10">
                             <p className="text-3xl font-extrabold text-white/20 group-hover:text-white transition-all duration-200 text-center">We&apos;ve achieved <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">incredible</span> growth this year</p>
                         </div>
                     </FeatureCard>
-                    <FeatureCard className="md:col-span-2 md:col-start-2 lg:col-span-1 lg:col-start-auto group"
+                    <FeatureCard 
+                        className="md:col-span-2 md:col-start-2 lg:col-span-1 lg:col-start-auto group"
                         title="Keyboard Quick Actions"
                         description="WPowerful commands to help you create designs more quickly."
                     >
