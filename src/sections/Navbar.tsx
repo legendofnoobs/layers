@@ -7,7 +7,7 @@ import { twMerge } from "tailwind-merge";
 import { AnimatePresence, motion } from "framer-motion";
 
 const navLinks = [
-    { label: "Home", href: "#" },
+    { label: "Home", href: "#home" },
     { label: "Features", href: "#features" },
     { label: "Integrations", href: "#integrations" },
     { label: "FAQs", href: "#faqs" },

@@ -21,7 +21,7 @@ const features = [
 
 export default function Features() {
     return (
-        <section className="py-24 px-4">
+        <section id="features" className="py-32 px-4">
             <div className="container m-auto">
                 <div className="flex justify-center">
                     <Tag>Features</Tag>
@@ -61,9 +61,9 @@ export default function Features() {
                         title="Interactive Prototyping"
                         description="Engage your clients with protypes that reacts to user actions."
                     >
-                        <div className="absolute -top-24 bg-transparent group-hover:bg-lime-700 w-full h-2/3 rounded-full -translate-x-6 blur-3xl z-0 transition-all ease-linear duration-300" />
+                        <div className="absolute -top-24 sm:bg-lime-700 lg:bg-transparent lg:group-hover:bg-lime-700 w-full h-2/3 rounded-full -translate-x-6 blur-3xl z-0 transition-all ease-linear duration-300" />
                         <div className="aspect-video flex items-center justify-center relative z-10">
-                            <p className="text-3xl font-extrabold text-white/20 group-hover:text-white transition-all duration-200 text-center">We&apos;ve achieved <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">incredible</span> growth this year</p>
+                            <p className="text-3xl font-extrabold text-white lg:text-white/20 lg:group-hover:text-white transition-all duration-200 text-center">We&apos;ve achieved <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">incredible</span> growth this year</p>
                         </div>
                     </FeatureCard>
                     <FeatureCard 

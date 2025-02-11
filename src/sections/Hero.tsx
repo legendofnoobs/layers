@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 "use client"
 import Image from "next/image";
 
@@ -41,7 +42,7 @@ export default function Hero() {
     }, [])
 
     return (
-        <section className="py-24 px-4 overflow-x-clip" style={{
+        <section id="home" className="py-44 px-4 overflow-x-clip" style={{
             cursor: `url(${CursorYouImage.src}), auto`
         }}>
             <div className="container relative m-auto">
